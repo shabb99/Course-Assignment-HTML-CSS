@@ -1,0 +1,26 @@
+.payment {
+  margin-top: 120px;
+  letter-spacing: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  letter-spacing: 8px;
+}
+
+.hr2 {
+  height: 1px;
+  color: grey;
+  position: relative;
+  top: 5px;
+}
+
+.footer2 {
+  margin-top: 42px;
+  letter-spacing: 2px;
+}

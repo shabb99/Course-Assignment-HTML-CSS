@@ -1,0 +1,171 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --primary: #ffffff;
+  --dark: #000000;
+  --light: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: russo one;
+  color: var(--light);
+}
+
+body {
+  background: black;
+  line-height: 1.4;
+  font-family: russo one;
+}
+
+.search {
+  margin: auto;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 50%;
+}
+
+.main-navig {
+  margin-top: 10px;
+}
+
+.main-navig ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(7, 2fr);
+}
+
+.main-navig a {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding-top: 90px;
+  padding: 0.8rem;
+  color: var(--light);
+}
+
+.contact-page h1 {
+  margin-top: 60px;
+  padding-left: 70px;
+}
+
+.contact-form {
+  max-width: 500px;
+  padding: 0 70px;
+  overflow: hidden;
+}
+
+.contact-forum-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  outline: none;
+  transition: 0.3s;
+  background: #111111;
+  padding: 20px 40px;
+  color: #dddddd;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn {
+  background: #34495e;
+  color: white;
+  padding: 12px 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 140px;
+}
+
+.contact-form-btn:hover {
+  background: #2980b9;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  outline: none;
+  transition: 0.3s;
+  background: #111111;
+  padding: 20px 40px;
+  color: #dddddd;
+}
+
+.container {
+  width: 500px;
+  height: 700px;
+  position: absolute;
+  left: 100px;
+}
+
+.info-container {
+  width: 100%;
+  min-height: 750px;
+  position: relative;
+}
+
+.game-page {
+  position: absolute;
+  top: 115px;
+  right: 400px;
+}
+
+.hr2 {
+  height: 2px;
+  color: white;
+  position: relative;
+  top: 5px;
+}
+
+.footer2 {
+  margin-top: 42px;
+  letter-spacing: 2px;
+}
+
+.container-icons {
+  display: flex;
+  margin-top: 120px;
+}
+
+.icons {
+  width: 50%;
+  letter-spacing: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.payment {
+  width: 50%;
+}
+
+@media (max-width: 1200px) {
+  /*Desktop*/
+}
+
+@media (max-width: 991px) {
+  /*Mobile*/
+}
+
+@media (max-width: 767px) {
+  /*Mobile*/
+}

@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --primary: #ffffff;
+  --dark: #000000;
+  --light: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: russo one;
+  color: var(--light);
+}
+
+body {
+  background: black;
+  line-height: 1.4;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.search {
+  margin: auto;
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.box-container {
+  display: flex;
+}
+
+.logo {
+  width: 50%;
+}
+
+.main-navig {
+  margin-top: 10px;
+}
+
+.main-navig ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(7, 2fr);
+}
+
+.main-navig a {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding-top: 90px;
+  padding: 0.8rem;
+  color: var(--light);
+}
+
+hr {
+  height: 2px;
+  background-color: white;
+  position: relative;
+  top: 10px;
+}
+
+.parent {
+  min-height: 750px;
+  grid-template-areas:
+    "box1"
+    "box2";
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.box1 {
+  margin-top: 50px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.box2 ul {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-forum-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  outline: none;
+  transition: 0.3s;
+  background: #111111;
+  padding: 20px 40px;
+  color: #dddddd;
+}
+
+.contact-form-text:focus {
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form-btn {
+  background: #34495e;
+  color: white;
+  padding: 12px 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form-btn:hover {
+  background: #2980b9;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  outline: none;
+  transition: 0.3s;
+  background: #111111;
+  padding: 20px 40px;
+  color: #dddddd;
+}
+
+.footer2 {
+  margin-top: 42px;
+  letter-spacing: 2px;
+}
+
+.container-icons {
+  display: flex;
+  margin-top: 120px;
+}
+
+.icons {
+  width: 50%;
+  letter-spacing: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.payment {
+  width: 50%;
+}
